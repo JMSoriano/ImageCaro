@@ -1,0 +1,90 @@
+img {
+    max-width:50%;
+    height:auto;
+}
+
+#topBanner{
+	background-color: #151515;
+	height: 75px;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	top: 0px;
+}
+
+#prev{
+	position: relative;
+	top: 310px;
+	left: 335px;
+	font-size: 20pt;
+	background-color: #2a2a2a;
+	color: white;
+	height: 50px;
+	border: 0;
+	z-index: 998;
+	opacity: 0.5;
+}
+
+#next{
+	position: relative;
+	top: 310px;
+	left: 923px;
+	font-size: 20pt;
+	background-color: #2a2a2a;
+	color: white;
+	height: 50px;
+	border: 0;
+	z-index: 998;
+	opacity: 0.5;
+}
+
+.container{
+    width:700px;
+    height:400px;
+    padding:20px;
+    border:1px solid gray;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background: black; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+	}
+	.wrapper{
+	    overflow: hidden;
+	}
+		#images{
+		    position: relative;
+		    height: 300px;
+		 	white-space: nowrap;
+		 	list-style-type: none;
+		    padding:0;
+		    float:left;
+		}
+			#images li{
+			    max-width: 100%;
+			    display:inline;
+			    list-style: none;
+			}
+
+#lipsumHolder{
+	margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-bottom: 100px
+}
+
+	#lipsum{
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+#bottomBanner{
+	background-color: #151515;
+	height: 75px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+}
